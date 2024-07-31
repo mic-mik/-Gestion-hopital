@@ -7,7 +7,6 @@ const UpdateDepartement = () => {
     const navigate = useNavigate();
     const [departement, setDepartement] = useState({
         nom: '',
-        // lits: [] // Liste des lits associée au département
     });
     const [loading, setLoading] = useState(true);
 
@@ -20,7 +19,6 @@ const UpdateDepartement = () => {
 
                 const updatedDepartement = {
                     nom: departementData.Nom || '',
-                    // lits: departementData.Lit || [] // Assurez-vous que 'Lit' est correctement formaté
                 };
 
                 console.log("Departement Data to be set: ", updatedDepartement);
@@ -45,19 +43,18 @@ const UpdateDepartement = () => {
 
     const handleSubmit = async (e) => {
         e.preventDefault();
-
+    
         const departementData = {
             nom: departement.nom || '',
-            // lits: departement.lits || [] // Assurez-vous que les lits sont correctement formatés
         };
-
+    
         console.log("Departement Data to be sent: ", departementData);
-
+    
         try {
             await axios.put(`http://localhost:50476/api/departements/${id}`, departementData);
             console.log("Réponse de l'API :", departementData);
             alert('Département mis à jour avec succès');
-            navigate('/');
+            navigate('/ListDepartement');
         } catch (error) {
             console.error("Il y a eu une erreur lors de la mise à jour du département !", error);
         }
@@ -79,18 +76,6 @@ const UpdateDepartement = () => {
                         value={departement.nom}
                         onChange={handleChange}
                         required
-                    />
-                </div>
-                <div>
-                    <label>Lits Associés (IDs séparés par des virgules):</label>
-                    <input
-                        type="text"
-                        name="lits"
-                        // value={departement.lits.join(', ')}
-                        onChange={(e) => setDepartement(prevState => ({
-                            ...prevState,
-                            // lits: e.target.value.split(',').map(id => id.trim())
-                        }))}
                     />
                 </div>
                 <button type="submit">Mettre à jour</button>

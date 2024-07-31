@@ -1,53 +1,43 @@
-import React, { useState, useEffect } from "react";
-import axios from "axios";
-import { useParams } from "react-router-dom";
+import React, { useState, useEffect } from 'react';
+import axios from 'axios';
+import { useParams } from 'react-router-dom';
 
 const ViewDepartement = () => {
-  const { id } = useParams();
-  const [departement, setDepartement] = useState(null);
+    const { id } = useParams();
+    const [departement, setDepartement] = useState(null);
+    const [loading, setLoading] = useState(true);
 
-  useEffect(() => {
-    const fetchDepartement = async () => {
-      try {
-        const response = await axios.get(
-          `http://localhost:50476/api/departements/${id}`
-        );
-        setDepartement(response.data);
-      } catch (error) {
-        console.error(
-          "Il y a eu une erreur lors de la récupération du département !",
-          error
-        );
-      }
-    };
+    useEffect(() => {
+        const fetchDepartement = async () => {
+            try {
+                console.log(`Fetching departement with ID: ${id}`);
+                const response = await axios.get(`http://localhost:50476/api/departements/${id}`);
+                console.log("Réponse de l'API :", response.data);
+                setDepartement(response.data);
+            } catch (error) {
+                console.error("Il y a eu une erreur lors de la récupération du département !", error);
+            } finally {
+                setLoading(false);
+            }
+        };
 
-    fetchDepartement();
-  }, [id]);
+        fetchDepartement();
+    }, [id]);
 
-  if (!departement) {
-    return <p>Chargement...</p>;
-  }
+    if (loading) {
+        return <p>Chargement...</p>;
+    }
 
-  return (
-    <div>
-      <h2>Détails du Département</h2>
-      <p>
-        <strong>Nom:</strong> {departement.Nom}
-      </p>
-      {departement.Lit && departement.Lit.length > 0 ? (
+    if (!departement) {
+        return <p>Aucun département trouvé.</p>;
+    }
+
+    return (
         <div>
-          <h3>Lits Associés</h3>
-          <ul>
-            {departement.Lit.map((lit, index) => (
-              <li key={index}>ID du Lit: {lit}</li>
-            ))}
-          </ul>
+            <h2>Détails du Département</h2>
+            <p><strong>Nom:</strong> {departement.Nom}</p>
         </div>
-      ) : (
-        <p>Aucun lit associé disponible</p>
-      )}
-    </div>
-  );
+    );
 };
 
 export default ViewDepartement;

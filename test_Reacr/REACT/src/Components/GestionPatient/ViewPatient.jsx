@@ -29,6 +29,8 @@ const ViewPatient = () => {
             <p><strong>Prénom:</strong> {patient.Prenom}</p>
             <p><strong>Nom:</strong> {patient.Nom}</p>
             <p><strong>Date de Naissance:</strong> {new Date(patient.DateNaissance).toLocaleDateString()}</p>
+            <p><strong>Email:</strong> {patient.Email}</p>
+            <p><strong>Numéro d'Assurance Maladie:</strong> {patient.NumAssurMaladie}</p>
             <p><strong>Téléphone:</strong> {patient.Telephone}</p>
             {patient.Adresse ? (
                 <div>

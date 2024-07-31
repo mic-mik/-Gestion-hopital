@@ -1,54 +1,34 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\Loic Sagbo\\Desktop\\projetGestionHopital_server\\",
+  "WorkspaceRootPath": "C:\\Users\\Utilisateur\\Documents\\projet_rcw\\projet_rcw\\projetGestionHopital_server\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{7269BBC8-92CA-4084-9D55-E02125D4A75A}|projetGestionHopital_server.csproj|c:\\users\\loic sagbo\\desktop\\projetgestionhopital_server\\models\\lit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7269BBC8-92CA-4084-9D55-E02125D4A75A}|projetGestionHopital_server.csproj|solutionrelative:models\\lit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7269BBC8-92CA-4084-9D55-E02125D4A75A}|projetGestionHopital_server.csproj|C:\\Users\\Loic Sagbo\\Desktop\\projetGestionHopital_server\\controllers\\rendezvouscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7269BBC8-92CA-4084-9D55-E02125D4A75A}|projetGestionHopital_server.csproj|solutionrelative:controllers\\rendezvouscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7269BBC8-92CA-4084-9D55-E02125D4A75A}|projetGestionHopital_server.csproj|C:\\Users\\Loic Sagbo\\Desktop\\projetGestionHopital_server\\models\\hopitauxdb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7269BBC8-92CA-4084-9D55-E02125D4A75A}|projetGestionHopital_server.csproj|solutionrelative:models\\hopitauxdb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7269BBC8-92CA-4084-9D55-E02125D4A75A}|projetGestionHopital_server.csproj|c:\\users\\loic sagbo\\desktop\\projetgestionhopital_server\\models\\departement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7269BBC8-92CA-4084-9D55-E02125D4A75A}|projetGestionHopital_server.csproj|solutionrelative:models\\departement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7269BBC8-92CA-4084-9D55-E02125D4A75A}|projetGestionHopital_server.csproj|c:\\users\\loic sagbo\\desktop\\projetgestionhopital_server\\controllers\\medecinscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7269BBC8-92CA-4084-9D55-E02125D4A75A}|projetGestionHopital_server.csproj|solutionrelative:controllers\\medecinscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7269BBC8-92CA-4084-9D55-E02125D4A75A}|projetGestionHopital_server.csproj|C:\\Users\\Loic Sagbo\\Desktop\\projetGestionHopital_server\\controllers\\patientscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7269BBC8-92CA-4084-9D55-E02125D4A75A}|projetGestionHopital_server.csproj|solutionrelative:controllers\\patientscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7269BBC8-92CA-4084-9D55-E02125D4A75A}|projetGestionHopital_server.csproj|c:\\users\\loic sagbo\\desktop\\projetgestionhopital_server\\app_start\\webapiconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{7269BBC8-92CA-4084-9D55-E02125D4A75A}|projetGestionHopital_server.csproj|c:\\users\\utilisateur\\documents\\projet_rcw\\projet_rcw\\projetgestionhopital_server\\app_start\\webapiconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7269BBC8-92CA-4084-9D55-E02125D4A75A}|projetGestionHopital_server.csproj|solutionrelative:app_start\\webapiconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7269BBC8-92CA-4084-9D55-E02125D4A75A}|projetGestionHopital_server.csproj|c:\\users\\loic sagbo\\desktop\\projetgestionhopital_server\\models\\adresse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7269BBC8-92CA-4084-9D55-E02125D4A75A}|projetGestionHopital_server.csproj|solutionrelative:models\\adresse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{7269BBC8-92CA-4084-9D55-E02125D4A75A}|projetGestionHopital_server.csproj|C:\\Users\\Utilisateur\\Documents\\projet_rcw\\projet_rcw\\projetGestionHopital_server\\controllers\\infirmierscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7269BBC8-92CA-4084-9D55-E02125D4A75A}|projetGestionHopital_server.csproj|solutionrelative:controllers\\infirmierscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7269BBC8-92CA-4084-9D55-E02125D4A75A}|projetGestionHopital_server.csproj|c:\\users\\loic sagbo\\desktop\\projetgestionhopital_server\\models\\infirmier.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{7269BBC8-92CA-4084-9D55-E02125D4A75A}|projetGestionHopital_server.csproj|C:\\Users\\Utilisateur\\Documents\\projet_rcw\\projet_rcw\\projetGestionHopital_server\\models\\infirmier.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7269BBC8-92CA-4084-9D55-E02125D4A75A}|projetGestionHopital_server.csproj|solutionrelative:models\\infirmier.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7269BBC8-92CA-4084-9D55-E02125D4A75A}|projetGestionHopital_server.csproj|c:\\users\\loic sagbo\\desktop\\projetgestionhopital_server\\models\\patient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7269BBC8-92CA-4084-9D55-E02125D4A75A}|projetGestionHopital_server.csproj|solutionrelative:models\\patient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{7269BBC8-92CA-4084-9D55-E02125D4A75A}|projetGestionHopital_server.csproj|C:\\Users\\Utilisateur\\Documents\\projet_rcw\\projet_rcw\\projetGestionHopital_server\\models\\adresse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7269BBC8-92CA-4084-9D55-E02125D4A75A}|projetGestionHopital_server.csproj|solutionrelative:models\\adresse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7269BBC8-92CA-4084-9D55-E02125D4A75A}|projetGestionHopital_server.csproj|C:\\Users\\Loic Sagbo\\Desktop\\projetGestionHopital_server\\app_start\\routeconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{7269BBC8-92CA-4084-9D55-E02125D4A75A}|projetGestionHopital_server.csproj|C:\\Users\\Utilisateur\\Documents\\projet_rcw\\projet_rcw\\projetGestionHopital_server\\models\\medecin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7269BBC8-92CA-4084-9D55-E02125D4A75A}|projetGestionHopital_server.csproj|solutionrelative:models\\medecin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7269BBC8-92CA-4084-9D55-E02125D4A75A}|projetGestionHopital_server.csproj|C:\\Users\\Utilisateur\\Documents\\projet_rcw\\projet_rcw\\projetGestionHopital_server\\models\\departement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7269BBC8-92CA-4084-9D55-E02125D4A75A}|projetGestionHopital_server.csproj|solutionrelative:models\\departement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7269BBC8-92CA-4084-9D55-E02125D4A75A}|projetGestionHopital_server.csproj|C:\\Users\\Utilisateur\\Documents\\projet_rcw\\projet_rcw\\projetGestionHopital_server\\app_start\\routeconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7269BBC8-92CA-4084-9D55-E02125D4A75A}|projetGestionHopital_server.csproj|solutionrelative:app_start\\routeconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7269BBC8-92CA-4084-9D55-E02125D4A75A}|projetGestionHopital_server.csproj|C:\\Users\\Loic Sagbo\\Desktop\\projetGestionHopital_server\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{7269BBC8-92CA-4084-9D55-E02125D4A75A}|projetGestionHopital_server.csproj|solutionrelative:views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -57,178 +37,97 @@
       "VerticalTabListWidth": 256,
       "DocumentGroups": [
         {
-          "DockedWidth": 377,
-          "SelectedChildIndex": 0,
+          "DockedWidth": 298,
+          "SelectedChildIndex": 3,
           "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Lit.cs",
-              "DocumentMoniker": "C:\\Users\\Loic Sagbo\\Desktop\\projetGestionHopital_server\\Models\\Lit.cs",
-              "RelativeDocumentMoniker": "Models\\Lit.cs",
-              "ToolTip": "C:\\Users\\Loic Sagbo\\Desktop\\projetGestionHopital_server\\Models\\Lit.cs",
-              "RelativeToolTip": "Models\\Lit.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAABAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-23T22:28:39.006Z",
-              "EditorCaption": ""
-            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{74946827-37a0-11d2-a273-00c04f8ef4ff}"
             },
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
-            },
-            {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "RendezVousController.cs",
-              "DocumentMoniker": "C:\\Users\\Loic Sagbo\\Desktop\\projetGestionHopital_server\\Controllers\\RendezVousController.cs",
-              "RelativeDocumentMoniker": "Controllers\\RendezVousController.cs",
-              "ToolTip": "C:\\Users\\Loic Sagbo\\Desktop\\projetGestionHopital_server\\Controllers\\RendezVousController.cs",
-              "RelativeToolTip": "Controllers\\RendezVousController.cs",
-              "ViewState": "AQIAACUAAAAAAAAAAAA5wA8AAAAoAAAA",
+              "Title": "InfirmiersController.cs",
+              "DocumentMoniker": "C:\\Users\\Utilisateur\\Documents\\projet_rcw\\projet_rcw\\projetGestionHopital_server\\Controllers\\InfirmiersController.cs",
+              "RelativeDocumentMoniker": "Controllers\\InfirmiersController.cs",
+              "ToolTip": "C:\\Users\\Utilisateur\\Documents\\projet_rcw\\projet_rcw\\projetGestionHopital_server\\Controllers\\InfirmiersController.cs",
+              "RelativeToolTip": "Controllers\\InfirmiersController.cs",
+              "ViewState": "AQIAAEABAAAAAAAAAAAUwFQBAAANAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-22T20:13:00.43Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-30T21:29:35.043Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Departement.cs",
-              "DocumentMoniker": "C:\\Users\\Loic Sagbo\\Desktop\\projetGestionHopital_server\\Models\\Departement.cs",
-              "RelativeDocumentMoniker": "Models\\Departement.cs",
-              "ToolTip": "C:\\Users\\Loic Sagbo\\Desktop\\projetGestionHopital_server\\Models\\Departement.cs",
-              "RelativeToolTip": "Models\\Departement.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAABAAAA",
+              "DocumentIndex": 4,
+              "Title": "Medecin.cs",
+              "DocumentMoniker": "C:\\Users\\Utilisateur\\Documents\\projet_rcw\\projet_rcw\\projetGestionHopital_server\\Models\\Medecin.cs",
+              "RelativeDocumentMoniker": "Models\\Medecin.cs",
+              "ToolTip": "C:\\Users\\Utilisateur\\Documents\\projet_rcw\\projet_rcw\\projetGestionHopital_server\\Models\\Medecin.cs",
+              "RelativeToolTip": "Models\\Medecin.cs",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAAABUAAAAsAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-23T22:27:56.186Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-30T21:07:30.522Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "PatientsController.cs",
-              "DocumentMoniker": "C:\\Users\\Loic Sagbo\\Desktop\\projetGestionHopital_server\\Controllers\\PatientsController.cs",
-              "RelativeDocumentMoniker": "Controllers\\PatientsController.cs",
-              "ToolTip": "C:\\Users\\Loic Sagbo\\Desktop\\projetGestionHopital_server\\Controllers\\PatientsController.cs",
-              "RelativeToolTip": "Controllers\\PatientsController.cs",
-              "ViewState": "AQIAACAAAAAAAAAAAAAgwBEAAAAJAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-22T20:00:45.684Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 0,
               "Title": "WebApiConfig.cs",
-              "DocumentMoniker": "C:\\Users\\Loic Sagbo\\Desktop\\projetGestionHopital_server\\App_Start\\WebApiConfig.cs",
+              "DocumentMoniker": "C:\\Users\\Utilisateur\\Documents\\projet_rcw\\projet_rcw\\projetGestionHopital_server\\App_Start\\WebApiConfig.cs",
               "RelativeDocumentMoniker": "App_Start\\WebApiConfig.cs",
-              "ToolTip": "C:\\Users\\Loic Sagbo\\Desktop\\projetGestionHopital_server\\App_Start\\WebApiConfig.cs",
+              "ToolTip": "C:\\Users\\Utilisateur\\Documents\\projet_rcw\\projet_rcw\\projetGestionHopital_server\\App_Start\\WebApiConfig.cs",
               "RelativeToolTip": "App_Start\\WebApiConfig.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAAAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-07-23T12:29:55.43Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "Infirmier.cs",
-              "DocumentMoniker": "C:\\Users\\Loic Sagbo\\Desktop\\projetGestionHopital_server\\Models\\Infirmier.cs",
-              "RelativeDocumentMoniker": "Models\\Infirmier.cs",
-              "ToolTip": "C:\\Users\\Loic Sagbo\\Desktop\\projetGestionHopital_server\\Models\\Infirmier.cs",
-              "RelativeToolTip": "Models\\Infirmier.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAIAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-23T12:35:54.803Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "Patient.cs",
-              "DocumentMoniker": "C:\\Users\\Loic Sagbo\\Desktop\\projetGestionHopital_server\\Models\\Patient.cs",
-              "RelativeDocumentMoniker": "Models\\Patient.cs",
-              "ToolTip": "C:\\Users\\Loic Sagbo\\Desktop\\projetGestionHopital_server\\Models\\Patient.cs",
-              "RelativeToolTip": "Models\\Patient.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAADAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-23T22:01:29.427Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "HopitauxDb.cs",
-              "DocumentMoniker": "C:\\Users\\Loic Sagbo\\Desktop\\projetGestionHopital_server\\Models\\HopitauxDb.cs",
-              "RelativeDocumentMoniker": "Models\\HopitauxDb.cs",
-              "ToolTip": "C:\\Users\\Loic Sagbo\\Desktop\\projetGestionHopital_server\\Models\\HopitauxDb.cs",
-              "RelativeToolTip": "Models\\HopitauxDb.cs",
-              "ViewState": "AQIAAAkAAAAAAAAAAAAAAA4AAAAZAAAA",
+              "Title": "Infirmier.cs",
+              "DocumentMoniker": "C:\\Users\\Utilisateur\\Documents\\projet_rcw\\projet_rcw\\projetGestionHopital_server\\Models\\Infirmier.cs",
+              "RelativeDocumentMoniker": "Models\\Infirmier.cs",
+              "ToolTip": "C:\\Users\\Utilisateur\\Documents\\projet_rcw\\projet_rcw\\projetGestionHopital_server\\Models\\Infirmier.cs",
+              "RelativeToolTip": "Models\\Infirmier.cs",
+              "ViewState": "AQIAABYAAAAAAAAAAAAuwCMAAAAxAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-22T19:50:19.723Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-31T00:01:20.496Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "MedecinsController.cs",
-              "DocumentMoniker": "C:\\Users\\Loic Sagbo\\Desktop\\projetGestionHopital_server\\Controllers\\MedecinsController.cs",
-              "RelativeDocumentMoniker": "Controllers\\MedecinsController.cs",
-              "ToolTip": "C:\\Users\\Loic Sagbo\\Desktop\\projetGestionHopital_server\\Controllers\\MedecinsController.cs",
-              "RelativeToolTip": "Controllers\\MedecinsController.cs",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAwAAAAAAAAA",
+              "DocumentIndex": 5,
+              "Title": "Departement.cs",
+              "DocumentMoniker": "C:\\Users\\Utilisateur\\Documents\\projet_rcw\\projet_rcw\\projetGestionHopital_server\\Models\\Departement.cs",
+              "RelativeDocumentMoniker": "Models\\Departement.cs",
+              "ToolTip": "C:\\Users\\Utilisateur\\Documents\\projet_rcw\\projet_rcw\\projetGestionHopital_server\\Models\\Departement.cs",
+              "RelativeToolTip": "Models\\Departement.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABcAAAA+AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-23T16:04:58.414Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-30T21:09:13.928Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 3,
+              "Title": "Adresse.cs",
+              "DocumentMoniker": "C:\\Users\\Utilisateur\\Documents\\projet_rcw\\projet_rcw\\projetGestionHopital_server\\Models\\Adresse.cs",
+              "RelativeDocumentMoniker": "Models\\Adresse.cs",
+              "ToolTip": "C:\\Users\\Utilisateur\\Documents\\projet_rcw\\projet_rcw\\projetGestionHopital_server\\Models\\Adresse.cs",
+              "RelativeToolTip": "Models\\Adresse.cs",
+              "ViewState": "AQIAABIAAAAAAAAAAIA6wCcAAAAvAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-30T19:54:13.964Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
               "Title": "RouteConfig.cs",
-              "DocumentMoniker": "C:\\Users\\Loic Sagbo\\Desktop\\projetGestionHopital_server\\App_Start\\RouteConfig.cs",
+              "DocumentMoniker": "C:\\Users\\Utilisateur\\Documents\\projet_rcw\\projet_rcw\\projetGestionHopital_server\\App_Start\\RouteConfig.cs",
               "RelativeDocumentMoniker": "App_Start\\RouteConfig.cs",
-              "ToolTip": "C:\\Users\\Loic Sagbo\\Desktop\\projetGestionHopital_server\\App_Start\\RouteConfig.cs",
+              "ToolTip": "C:\\Users\\Utilisateur\\Documents\\projet_rcw\\projet_rcw\\projetGestionHopital_server\\App_Start\\RouteConfig.cs",
               "RelativeToolTip": "App_Start\\RouteConfig.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-23T08:54:53.622Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\Loic Sagbo\\Desktop\\projetGestionHopital_server\\Views\\Home\\Index.cshtml",
-              "RelativeDocumentMoniker": "Views\\Home\\Index.cshtml",
-              "ToolTip": "C:\\Users\\Loic Sagbo\\Desktop\\projetGestionHopital_server\\Views\\Home\\Index.cshtml",
-              "RelativeToolTip": "Views\\Home\\Index.cshtml",
-              "ViewState": "AQIAAAkAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-07-22T19:41:37.43Z",
-              "EditorCaption": ""
-            }
-          ]
-        },
-        {
-          "DockedWidth": 169,
-          "SelectedChildIndex": 0,
-          "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "Adresse.cs",
-              "DocumentMoniker": "C:\\Users\\Loic Sagbo\\Desktop\\projetGestionHopital_server\\Models\\Adresse.cs",
-              "RelativeDocumentMoniker": "Models\\Adresse.cs",
-              "ToolTip": "C:\\Users\\Loic Sagbo\\Desktop\\projetGestionHopital_server\\Models\\Adresse.cs",
-              "RelativeToolTip": "Models\\Adresse.cs",
-              "ViewState": "AQIAAA8AAAAAAAAAAAAQwCcAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-23T12:36:46.417Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-23T08:54:53.622Z"
             }
           ]
         }

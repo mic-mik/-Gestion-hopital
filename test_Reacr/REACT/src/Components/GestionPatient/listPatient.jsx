@@ -20,11 +20,11 @@ const ListPatient = () => {
     }, []);
 
     const handleView = (id) => {
-        navigate(`/view/${id}`);
+        navigate(`/viewPatients/${id}`);
     };
 
     const handleEdit = (id) => {
-        navigate(`/update/${id}`);
+        navigate(`/updatePatients/${id}`);
     };
 
     const handleDelete = async (id) => {
@@ -37,9 +37,15 @@ const ListPatient = () => {
         }
     };
 
+    const handleAdd = () => {
+        navigate(`/addPatients`);
+    };
+
     return (
         <div>
-            <h2>Liste des Patients</h2>
+            <h2>Liste des Patients
+            <button onClick={() => handleAdd()}>Ajouter Patient</button>
+            </h2>
             {patients.length > 0 ? (
                 <table>
                     <thead>
@@ -47,6 +53,8 @@ const ListPatient = () => {
                             <th>Prénom</th>
                             <th>Nom</th>
                             <th>Date de Naissance</th>
+                            <th>Email</th>
+                            <th>Numéro d'Assurance Maladie</th>
                             <th>Téléphone</th>
                             <th>Rue</th>
                             <th>Ville</th>
@@ -62,6 +70,8 @@ const ListPatient = () => {
                                 <td>{patient.Prenom}</td>
                                 <td>{patient.Nom}</td>
                                 <td>{new Date(patient.DateNaissance).toLocaleDateString()}</td>
+                                <td>{patient.Email}</td>
+                                <td>{patient.NumAssurMaladie}</td>
                                 <td>{patient.Telephone}</td>
                                 {patient.Adresse ? (
                                     <>

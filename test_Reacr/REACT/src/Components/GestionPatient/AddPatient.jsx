@@ -5,6 +5,8 @@ const AddPatient = () => {
     const [prenom, setPrenom] = useState('');
     const [nom, setNom] = useState('');
     const [dateNaissance, setDateNaissance] = useState('');
+    const [email, setEmail] = useState('');
+    const [numAssurMaladie, setNumAssurMaladie] = useState('');
     const [rue, setRue] = useState('');
     const [ville, setVille] = useState('');
     const [province, setProvince] = useState('');
@@ -19,6 +21,8 @@ const AddPatient = () => {
             prenom,
             nom,
             dateNaissance,
+            email,
+            numAssurMaladie,
             telephone,
             adresse: {
                 rue,
@@ -34,11 +38,13 @@ const AddPatient = () => {
         try {
             const response = await axios.post('http://localhost:50476/api/patients', newPatient);
             console.log("Réponse de l'API :", response.data);
-           
+
             setPrenom('');
             setNom('');
             setTelephone('');
             setDateNaissance('');
+            setEmail('');
+            setNumAssurMaladie('');
             setRue('');
             setVille('');
             setCodePostal('');
@@ -71,7 +77,24 @@ const AddPatient = () => {
                         required
                     />
                 </div>
-
+                <div>
+                    <label>Email:</label>
+                    <input
+                        type="email"
+                        value={email}
+                        onChange={(e) => setEmail(e.target.value)}
+                        required
+                    />
+                </div>
+                <div>
+                    <label>Numéro d'Assurance Maladie:</label>
+                    <input
+                        type="text"
+                        value={numAssurMaladie}
+                        onChange={(e) => setNumAssurMaladie(e.target.value)}
+                        required
+                    />
+                </div>
                 <div>
                     <label>Telephone:</label>
                     <input

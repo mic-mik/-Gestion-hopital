@@ -9,6 +9,8 @@ const UpdatePatient = () => {
         prenom: '',
         nom: '',
         dateNaissance: '',
+        email: '',
+        numAssurMaladie: '',
         telephone: '',
         adresse: {
             rue: '',
@@ -27,7 +29,6 @@ const UpdatePatient = () => {
                 console.log("Réponse de l'API :", response.data);
                 const patientData = response.data;
 
-                // Fusionner les deux objets Adresse et adresse
                 const adresse = {
                     rue: patientData.Adresse?.Rue || '',
                     ville: patientData.Adresse?.Ville || '',
@@ -40,6 +41,8 @@ const UpdatePatient = () => {
                     prenom: patientData.Prenom || '',
                     nom: patientData.Nom || '',
                     dateNaissance: patientData.DateNaissance ? patientData.DateNaissance.split('T')[0] : '',
+                    email: patientData.Email || '',
+                    numAssurMaladie: patientData.NumAssurMaladie || '',
                     telephone: patientData.Telephone || '',
                     adresse: adresse
                 };
@@ -75,47 +78,36 @@ const UpdatePatient = () => {
         }));
     };
 
-    const Update = (e) => {
-        const { name, value } = e.target;
-        setPatient(prevState => ({
-            ...prevState,
-            adresse: {
-                ...prevState.adresse,
-                [name]: value
-            }
-        }));
-    };
-    
-
     const handleSubmit = async (e) => {
         e.preventDefault();
-    
+
         const patientData = {
-            prenom: patient.prenom || '',
-            nom: patient.nom || '',
-            dateNaissance: patient.dateNaissance || '',
-            telephone: patient.telephone || '',
+            prenom: patient.prenom,
+            nom: patient.nom,
+            dateNaissance: patient.dateNaissance,
+            email: patient.email,
+            numAssurMaladie: patient.numAssurMaladie,
+            telephone: patient.telephone,
             adresse: {
-                rue: patient.adresse.rue || '',
-                ville: patient.adresse.ville || '',
-                codePostal: patient.adresse.codePostal || '',
-                province: patient.adresse.province || '',
-                pays: patient.adresse.pays || ''
+                rue: patient.adresse.rue,
+                ville: patient.adresse.ville,
+                codePostal: patient.adresse.codePostal,
+                province: patient.adresse.province,
+                pays: patient.adresse.pays
             }
         };
-    
+
         console.log("Patient Data to be sent: ", patientData);
-    
+
         try {
             await axios.put(`http://localhost:50476/api/patients/${id}`, patientData);
             console.log("Réponse de l'API :", patientData);
             alert('Patient mis à jour avec succès');
-            navigate('/');
+            navigate('/ListPatient');
         } catch (error) {
             console.error("Il y a eu une erreur lors de la mise à jour du patient !", error);
         }
     };
-    
 
     if (loading) {
         return <p>Chargement...</p>;
@@ -151,6 +143,26 @@ const UpdatePatient = () => {
                         type="date"
                         name="dateNaissance"
                         value={patient.dateNaissance}
+                        onChange={handleChange}
+                        required
+                    />
+                </div>
+                <div>
+                    <label>Email:</label>
+                    <input
+                        type="email"
+                        name="email"
+                        value={patient.email}
+                        onChange={handleChange}
+                        required
+                    />
+                </div>
+                <div>
+                    <label>Numéro d'Assurance Maladie:</label>
+                    <input
+                        type="text"
+                        name="numAssurMaladie"
+                        value={patient.numAssurMaladie}
                         onChange={handleChange}
                         required
                     />

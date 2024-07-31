@@ -7,12 +7,30 @@ const Headers = () => {
       <h1>Gestion de l'Hôpital</h1>
       <nav>
         <ul>
-          <li>
-            <Link to="/">Liste des Patients</Link>
+        <li>
+            <Link to="/"> Accueil  </Link>
           </li>
           <li>
-            <Link to="/add">Ajouter un Patient</Link>
+            <Link to="/ListPatient">Liste des Patients</Link>
           </li>
+          <li>
+            <Link to="/listDepartement">Liste des Departements</Link>
+          </li>
+          <li>
+            <Link to="/ListLit">Liste des Lits</Link>
+          </li>
+          <li>
+            <Link to="/ListInfirmier">Liste des Infirmiers</Link>
+          </li>
+
+          <li>
+            <Link to="/ListMedecin">Liste des Medecin</Link>
+          </li>
+
+          <li>
+            <Link to="/Connexion">Connexion  </Link>
+          </li>
+
         </ul>
       </nav>
     </header>

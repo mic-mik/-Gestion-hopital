@@ -16,6 +16,8 @@ namespace projetGestionHopital_server.Models
         public string Prenom { get; set; }
         public string Nom { get; set; }
         public string Telephone { get; set; }
+        public string Email { get; set; }
+        public string NumAssurMaladie { get; set; }
         public DateTime DateNaissance { get; set; }
 
         //Relation avec Adresse 

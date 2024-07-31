@@ -34,7 +34,10 @@ namespace projetGestionHopital_server.Models
         public virtual List<Patient> Patient { get; set; }
 
         // Relation avec Infirmier
-        public virtual List<Infirmier> Infirmier { get; set; }
+        public virtual List<Infirmier> Infirmier { get; set; }      
+
+        // Relation avec Medecin
+        public virtual List<Medecin> Medecin { get; set; }
 
 
 
